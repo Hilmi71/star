@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarMall</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      style="
+        position: relative;
+        background-color: #208dbc;
+        color: #fff;
+        text-align: center;
+        padding: 0.5px;
+        font-style: italic;
+      "
+    >
+      <h1 style="font-size: 5vw">StarMall.</h1>
+      <img
+        src="8.png.png"
+        alt="Logo"
+        style="
+          height: 20vw;
+          max-height: 140px;
+          width: auto;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          border-radius: 50%;
+          object-fit: cover;
+        "
+      />
+    </header>
+
+    <!-- Navigasi -->
+    <nav
+      style="
+        background-color: #100f0f;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      "
+    >
+      <a
+        href="#home"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Home</a
+      >
+      <a
+        href="#Menu"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Menu</a
+      >
+      <a
+        href="#about"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Tentang</a
+      >
+      <a
+        href="#contact"
+        style="color: white; margin: 5px 10px; text-decoration: none"
+        >Kontak</a
+      >
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      style="
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image: url('9.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 20px;
+      "
+    >
+      <main style="width: 100%">
+        <div style="padding: 0 5%">
+          <h1
+            style="
+              color: #f0f0f0;
+              font-size: 8vw;
+              line-height: 1;
+              text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black,
+                -2px 2px 0 black;
+            "
+          >
+            Mari Berbelanja di Toko Kami
+          </h1>
+          <button
+            type="submit"
+            style="
+              display: inline-block;
+              padding: 1rem 3rem;
+              font-size: 2vw;
+              color: #f0f0f0;
+              background-color: #064b69;
+              cursor: pointer;
+              border-radius: 10px;
+            "
+          >
+            Beli Sekarang
+          </button>
+        </div>
+      </main>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section
+      id="about"
+      style="
+        padding: 30px 5px;
+        text-align: center;
+        background-color: #208dbc;
+        color: #f0f0f0;
+      "
+    >
+      <h2 style="font-size: 2.6rem; margin-bottom: 3rem">Tentang Kami</h2>
+      <div
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <div style="flex: 1 1 100%; max-width: 500px; margin-bottom: 10px">
+          <img
+            src="30.jpeg"
+            alt="Tentang Kami"
+            style="width: 100%; height: auto"
+          />
+        </div>
+        <div
+          style="
+            flex: 1 1 100%;
+            max-width: 600px;
+            padding: 0 1rem;
+            text-align: justify;
+          "
+        >
+          <h3
+            style="font-size: 1.8rem; margin-bottom: 1rem; text-align: center"
+          >
+            Kenapa harus berbelanja di toko Kami?
+          </h3>
+          <p
+            style="
+              margin-bottom: 0.8rem;
+              font-size: 1rem;
+              font-weight: 100;
+              line-height: 1.6;
+            "
+          >
+            Temukan gaya dan kenyamanan maksimal dengan koleksi sepatu terbaru
+            kami! Dari sneakers kasual hingga sepatu formal yang elegan, semua
+            tersedia dengan desain kekinian dan kualitas terbaik.
+          </p>
+          <p
+            style="
+              margin-bottom: 0.8rem;
+              font-size: 1rem;
+              font-weight: 100;
+              line-height: 1.6;
+            "
+          >
+            Cocok untuk kamu yang ingin tampil stylish di segala suasana!
+            Belanja sekarang di StarMall dan nikmati promo spesial serta gratis
+            ongkir ke seluruh Indonesia!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section
+      id="Menu"
+      style="
+        padding: 30px 20px;
+        text-align: center;
+        background-color: #04415b;
+        color: #f0f0f0;
+      "
+    >
+      <h2 style="font-size: 2.5rem; margin-bottom: 3rem">Daftar Barang Kami</h2>
+      <div
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 3rem;
+          padding: 3rem;
+        "
+      >
+        <!-- Kartu produk akan disusun di sini -->
+        <!-- Untuk ringkas, produk disarankan dikelola secara dinamis (misalnya menggunakan loop di JS atau backend) -->
+        <!-- Produk-produk yang sama diulang, hanya bagian gambar dan harga yang beda -->
+        <!-- Potongan ini hanya tampilkan satu contoh, sisanya tinggal copy & paste -->
+        <div style="flex: 1 1 150px; max-width: 200px">
+          <img
+            src="11.jpeg"
+            alt="NIKE"
+            style="
+              width: 100%;
+              height: auto;
+              border-radius: 50%;
+              object-fit: cover;
+            "
+          />
+          <h3 style="margin: 1rem auto 0.5rem">NIKE</h3>
+          <p>IDR 2.000.000</p>
+        </div>
+        <!-- Tambahkan item lainnya di sini... -->
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section
+      id="contact"
+      style="
+        background-color: #208dbc;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+      "
+    >
+      <h2>Hubungi Kami</h2>
+      <p>Email: StarMall@gmail.com</p>
+      <p>Telepon: (021) 587-6514</p>
+      <div style="display: flex; justify-content: center">
+        <form action="" style="width: 100%; max-width: 600px; padding: 2rem">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              margin-top: 2rem;
+              background-color: #3b1f02;
+              border: 1px solid #eee;
+              padding: 1.3rem;
+            "
+          >
+            <i data-feather="user"></i>
+            <input
+              type="text"
+              placeholder="Name"
+              style="
+                background: transparent;
+                border: none;
+                outline: none;
+                color: white;
+                width: 100%;
+                margin-left: 10px;
+              "
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              margin-top: 2rem;
+              background-color: #3b1f02;
+              border: 1px solid #eee;
+              padding: 1.3rem;
+            "
+          >
+            <i data-feather="phone"></i>
+            <input
+              type="text"
+              placeholder="Phone Number"
+              style="
+                background: transparent;
+                border: none;
+                outline: none;
+                color: white;
+                width: 100%;
+                margin-left: 10px;
+              "
+            />
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              margin-top: 2rem;
+              background-color: #3b1f02;
+              border: 1px solid #eee;
+              padding: 1.3rem;
+            "
+          >
+            <i data-feather="mail"></i>
+            <input
+              type="text"
+              placeholder="@mail"
+              style="
+                background: transparent;
+                border: none;
+                outline: none;
+                color: white;
+                width: 100%;
+                margin-left: 10px;
+              "
+            />
+          </div>
+          <button
+            type="submit"
+            style="
+              margin-top: 3rem;
+              padding: 1rem 3rem;
+              font-size: 1.7rem;
+              color: #f0f0f0;
+              background-color: #03171f;
+              cursor: pointer;
+            "
+          >
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="background-color: #04415b; text-align: center; padding: 1rem 0"
+    >
+      <div>
+        <a href="#"
+          ><i data-feather="instagram" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+        <a href="#"
+          ><i data-feather="twitter" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+        <a href="#"
+          ><i data-feather="facebook" style="color: #f0f0f0; margin: 1rem"></i
+        ></a>
+      </div>
+      <div>
+        <a href="#home" style="color: #f0f0f0; padding: 0.7rem 1rem">Home</a>
+        <a href="#menu" style="color: #f0f0f0; padding: 0.7rem 1rem">Menu</a>
+        <a href="#about" style="color: #f0f0f0; padding: 0.7rem 1rem"
+          >Tentang</a
+        >
+        <a href="#contact" style="color: #f0f0f0; padding: 0.7rem 1rem"
+          >Kontak</a
+        >
+      </div>
+      <div style="color: #f0f0f0">
+        <p>
+          Created by
+          <span style="color: #0a9a0a">Muhamad_Hilmi Sapura</span> &copy; 2025
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
